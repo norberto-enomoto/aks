@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: enomoto/aks
+        image: enomoto/aks#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
